@@ -1,0 +1,491 @@
+
+.top{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Zilla Slab', serif;
+    z-index: 9999;
+}
+
+.topLeft , .topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topCenter{
+    flex: 6;
+   
+}
+.topImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.topIcons{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.topListItem{
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topSearchIcon{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.header{
+    margin-top: 60px;
+}
+.headerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home{
+    background-color: whitesmoke;
+}
+.titlesm{
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'PT Serif', serif;
+}
+.titlelm{
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+    font-weight: 100;
+    font-family: 'PT Serif', serif;
+}
+.img{
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+    object-fit: cover;
+}
+
+.home{
+    display: flex;
+}
+
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.sidebar{
+ flex: 3;
+ margin: 20px;
+ padding: 30px 0px;
+ border-radius: 3px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+.sidebarItem{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebarTitle{
+   margin: 10px;
+   padding: 5px;
+   width: 50%;
+   border-top: 1px solid #a7a4a4;
+   border-bottom: 1px solid #a7a4a4;
+   font-weight: 600;
+   line-height: 20px;
+   text-align: center;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+.sidebarItem p{
+padding: 30px;
+}
+
+.slidebarList{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.slidebarListItem{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.socialitems{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialIcons{
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.post{
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+}
+.postImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+.postInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.postCat{
+    font-size: 11px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.postDes{
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.singlePost{
+    flex: 9;
+}
+
+.single{
+    display: flex;
+}
+
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0;
+}
+
+.singlePostImg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.singlePostTitle{
+    text-align: center;
+    margin: 10px;
+}
+
+.singlePostEdit{
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child{
+    color: teal;
+}
+.singlePostIcon:last-child{
+    color: tomato;
+}
+
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singlePostDes{
+    line-height: 25px;
+}
+
+.write{
+    padding: 50px;
+}
+.writeForm{
+position: relative;
+}
+
+.writeFormGroup{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.writeIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.writeInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+.writeInput:focus{
+    outline: none;
+}
+.writeText{
+    font-size: 18px;
+    height: 100vh;
+}
+
+.writeSubmit{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: whitesmoke;
+    background: teal;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.writeImg{
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.setting{
+    display: flex;
+}
+.settingWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.settingTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settingUpadteTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+.settingDeleteTitle{
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.settingForm{
+    display: flex;
+    flex-direction: column;
+}
+.settingPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.settingImg{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.settingPPIcon{
+   font-size: 50px;
+    border-radius: 50%;
+    color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.settingForm > label{
+ font-size: 20px;
+ margin-top: 20px;
+}
+.settingForm > input{
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmit{
+    width: 150px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)) ,url(https://images.unsplash.com/photo-1633113211821-6ac9c3d160a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8OHx8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60);
+    background-size: cover;
+    border: 1px solid gray;
+}
+
+.loginTitle{
+    font-size: 30px;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.loginForm > label{
+    margin: 10px 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.loginButton{
+    margin: 20px;
+   padding: 10px 60px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: #fff;
+}
+
+.RegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)) ,url(https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    border: 1px solid gray;
+}
+
+.registerTitle{
+    font-size: 30px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.registerForm > label{
+    margin: 10px 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.registerButton{
+    margin: 20px;
+   padding: 10px 60px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: #fff;
+}
+
+.RegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+.registerloginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.linklogin{
+   margin-right: 10px;
+}
